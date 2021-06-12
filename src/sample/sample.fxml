@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="244.0" prefWidth="250.0">
+            <children>
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="24.0" layoutY="54.0" prefHeight="25.0" prefWidth="95.0" text="Login" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="24.0" layoutY="110.0" prefHeight="25.0" prefWidth="95.0" text="Password" />
+            <TextField fx:id="text" alignment="CENTER" editable="false" layoutX="72.0" layoutY="145.0" prefHeight="25.0" prefWidth="166.0" promptText="text" text="Type the login and password" />
+            <Button fx:id="enter" layoutX="132.0" layoutY="180.0" mnemonicParsing="false" onAction="#clickEnter" prefHeight="25.0" prefWidth="104.0" text="Enter" />
+            <TextField fx:id="login" alignment="CENTER" layoutX="132.0" layoutY="54.0" prefHeight="25.0" prefWidth="95.0" promptText="login" />
+            <TextField fx:id="password" alignment="CENTER" layoutX="132.0" layoutY="109.0" prefHeight="25.0" prefWidth="95.0" promptText="password" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
